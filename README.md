@@ -2,7 +2,7 @@
 
 ![AntiAFKPresser — screenshot](AntiAFKPresser.png)
 
-**A tiny, portable Windows utility that keeps your PC and apps looking active while you step away.** Set an interval, choose an invisible key, and AntiAFKPresser quietly taps it so your session never goes idle. No installer, no ads, no telemetry — one small `.exe`.
+**A tiny Windows utility that keeps your PC and apps looking active while you step away.** Set an interval, choose an invisible key, and AntiAFKPresser quietly taps it so your session never goes idle. No ads, no telemetry — a small `.msi` installer.
 
 If you have been searching for an **afk key presser download**, this is the simple, ban-safe answer: a clean keep-alive tool that presses a chosen key at a fixed interval and, optionally, nudges the mouse and blocks sleep. It lives in the system tray and stays out of your way.
 
@@ -18,7 +18,7 @@ Idle timers are everywhere — screensavers, auto-lock, "away" status in chat ap
 - **Tray-first** — starts and stays in the system tray; closing the window keeps it running. Right-click the tray icon to toggle or exit.
 - **Big ON/OFF indicator** — a clear status panel with a green dot when the keep-alive is active.
 - **Remembers your setup** — settings are saved to `profiles.json` and restored on the next launch.
-- **Portable** — a single `.exe`, no installation, runs on Windows 10 / 11 (.NET Framework 4.8, preinstalled).
+- **Simple install** — a small `.msi` package, runs on Windows 10 / 11 (.NET Framework 4.8, preinstalled).
 
 ## Anti afk software for Windows — how it works
 
@@ -42,7 +42,7 @@ Nothing is injected into other programs and nothing reads another program's memo
 
 1. Download `AntiAFKPresser.zip`
 2. Unzip it anywhere
-3. Double-click `AntiAFKPresser.exe` — no installation needed
+3. Run `AntiAFKPresser.msi` and follow the installer
 
 ## Quick start
 
@@ -64,8 +64,8 @@ Delete that file to reset to defaults.
 ## Safety & transparency
 
 - Uses only the standard, documented Windows input APIs (`SendInput`, `SetThreadExecutionState`).
-- No installer, no background services, no network access, no telemetry.
-- Fully portable — delete the `.exe` to uninstall.
+- No bundled services, no network access, no telemetry.
+- Uninstall any time from Windows Settings ▸ Apps.
 - Open-source under the MIT License (see `LICENSE`).
 
 ## Disclaimer
