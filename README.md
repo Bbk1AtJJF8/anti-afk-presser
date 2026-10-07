@@ -1,6 +1,10 @@
-# Anti-AFK Presser — hands-free anti-afk presser with a timed heartbeat key for Windows
+# Anti-AFK Presser — a lightweight roblox anti afk keep-alive for Windows
 
-Anti-AFK Presser is a tiny Windows 10 and Windows 11 tray utility that keeps your session looking active while you walk away from the desk. It is a free anti-afk presser with no account, no sign-up, no watermark, and no telemetry — set a heartbeat key, pick an interval, and let it tap once every few minutes so idle timers never fire. The whole thing runs 64-bit and sits quietly next to your clock.
+Anti-AFK Presser is a tiny Windows 10 and Windows 11 tray utility built to be a dependable roblox anti afk helper — it sends a quiet heartbeat key on a timer so the twenty-minute idle kick never lands while you step away. It is free, needs no account, no sign-up, no watermark, and no telemetry — pick a key, choose an interval, and let the app tap once every few minutes. The whole thing runs 64-bit and sits quietly next to your clock.
+
+## Why use this as a roblox anti afk tool?
+
+Roblox watches for keyboard and mouse activity to decide you are present, and most experiences disconnect after about twenty minutes of silence. A three-to-five-minute F13 heartbeat with the optional 1px mouse nudge satisfies that check without doing anything in-game — no movement, no chat input, no camera jitter — so overnight farms, long trades, and group-only servers stay alive on their own.
 
 ## Download
 
